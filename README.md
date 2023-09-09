@@ -1,1 +1,1 @@
-Yeah‼️ is the Odin Project itself 😆‼️‼️
+Yes‼️ it's the Odin Project itself 😆‼️‼️
