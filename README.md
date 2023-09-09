@@ -1,1 +1,1 @@
-# test
+Yeah‼️ is the Odin Project itself 😆‼️‼️
