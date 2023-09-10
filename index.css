@@ -107,3 +107,9 @@ li.ingredient {
   margin-right: 2em;
   margin-bottom: 1em;
 }
+
+footer {
+  padding: 1em;
+  position: sticky;
+  text-align: center;
+}
