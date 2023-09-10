@@ -29,11 +29,15 @@ h3 {
   font-size: larger;
 }
 
-.container {
-  margin-top: 5%;
+.container,
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container {
+  margin-top: 5%;
 }
 
 .card {
@@ -41,9 +45,6 @@ h3 {
   margin-top: 1em;
   padding: 1em 2em;
   background-color: aliceblue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
