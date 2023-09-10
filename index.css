@@ -3,18 +3,20 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: SFDisplayPro-Medium;
-  src: url("fonts/SFProDisplay/SF-Pro-Display-Light.otf");
-}
 html {
-  font-family: SFDisplayPro-Medium;
+  font-family: "San Francisco Thin", -apple-system, BlinkMacSystemFont,
+    avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
   background-color: bisque;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+
+b {
+  font-family: "San Francisco Regular";
 }
 
 ul {
@@ -29,25 +31,71 @@ h3 {
   font-size: larger;
 }
 
-.container,
-.card {
+.body-container,
+.recipe-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.container {
+.body-container {
   margin-top: 5%;
 }
 
-.card {
+.recipe-list-container {
+  padding: 1em 2em;
+}
+
+.recipe-list-container,
+.recipe-container {
   border-radius: 5px;
   margin-top: 1em;
-  padding: 1em 2em;
   background-color: aliceblue;
-  justify-content: center;
+}
+
+.recipe-container {
+  padding-bottom: 1em;
+  width: 450px;
+  max-width: 450px;
+  margin-bottom: 50px;
+}
+
+.general-info {
+  padding: 1em 1em 1em 4em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
 }
 
 li {
   margin: 1em 0;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.title {
+  margin: 1em 0;
+}
+.recipe-info-container {
+  padding: 1em 2em;
+}
+
+.description,
+.directions {
+  margin: 0.5em 0 1em 0;
+  text-align: justify;
+  text-indent: 15pt;
+  line-height: normal;
+}
+
+.recipe-ingredients ul {
+  padding: 0 2em;
+}
+
+li.ingredient {
+  list-style-type: disc;
 }
