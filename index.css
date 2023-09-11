@@ -101,15 +101,19 @@ li.ingredient {
   list-style-type: disc;
 }
 
-.back {
-  display: flex;
-  float: right;
-  margin-right: 2em;
-  margin-bottom: 1em;
-}
-
 footer {
   padding: 1em;
   position: sticky;
   text-align: center;
+}
+
+.back {
+  padding: 0.7em 2em;
+  width: fit-content;
+  background-color: #000;
+  font-family: "San Francisco Regular";
+  font-size: 1.1em;
+  color: #fff;
+  display: flex;
+  float: right;
 }
