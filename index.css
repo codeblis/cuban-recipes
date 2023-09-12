@@ -7,7 +7,18 @@ html {
   font-family: "San Francisco Thin", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto,
     segoe ui, arial, sans-serif;
-  background-color: bisque;
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96deda,
+    #50c9c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96deda,
+    #50c9c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   scroll-behavior: smooth;
 }
 
@@ -124,7 +135,7 @@ footer {
   width: fit-content;
   height: fit-content;
   padding: 0.5em 0.5em 0.3em 0.5em;
-  top: 93vh;
+  top: 88vh;
   right: 3vh;
   background-color: #000;
   font-family: "San Francisco Regular";
