@@ -119,16 +119,19 @@ footer {
 }
 
 .up {
-  padding: 0.5em 0.7em;
+  display: block;
   position: fixed;
-  top: 90vh;
-  right: 1vh;
-  margin: 0 1.8em 1em 0;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5em 0.5em 0.3em 0.5em;
+  top: 93vh;
+  right: 3vh;
   background-color: #000;
   font-family: "San Francisco Regular";
   font-size: 1.1em;
   color: #fff;
   border-radius: 5px;
+  z-index: 1000;
 }
 
 .icon-back,
@@ -136,4 +139,9 @@ footer {
   filter: invert(100%);
   padding: 0;
   margin: 0;
+}
+
+.icon-up {
+  width: 25px;
+  height: 25px;
 }
