@@ -58,6 +58,7 @@ h3 {
 .recipe-list-container,
 .recipe-container {
   border-radius: 5px;
+
   margin-top: 1em;
   background-color: aliceblue;
 }
